@@ -1,0 +1,47 @@
+Shrink Partition & Create New Partition in Kali Linux
+1️⃣ Install GParted (if not installed)
+sudo apt update
+sudo apt install gparted
+
+2️⃣ Open GParted
+Run:
+sudo gparted
+
+3️⃣ Select the Disk
+At the top-right corner, select the disk (e.g., /dev/sda) you want to manage.
+
+4️⃣ Shrink Existing Partition
+Right-click on the partition you want to shrink (e.g., root or home).
+
+Select Resize/Move.
+
+In the dialog box, enter how much space you want to shrink.
+
+Click Resize/Move.
+
+You’ll now see Unallocated space.
+
+5️⃣ Create New Partition
+Right-click on the Unallocated space.
+
+Select New.
+
+Choose:
+
+File system: ext4 (or others like FAT32, NTFS if needed).
+
+Label: (Optional, name your partition).
+
+Click Add.
+
+6️⃣ Apply Changes
+Click the green checkmark (✓) button to apply all pending operations.
+
+Wait until the process completes.
+
+To Mount the New Partition:
+
+sudo mkdir /mnt/newpartition
+sudo mount /dev/sdaX /mnt/newpartition
+Replace /dev/sdaX with the correct partition name (you can check it in GParted).
+
