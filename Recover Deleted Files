@@ -1,0 +1,47 @@
+Recover Deleted Files with TestDisk on Kali Linux
+1️⃣ Install TestDisk
+Open Terminal and run:
+
+
+sudo apt update
+sudo apt install testdisk
+
+2️⃣ Launch TestDisk
+Run this command:
+
+sudo testdisk
+3️⃣ Select Disk
+Choose the disk where files were deleted.
+
+Use Arrow Keys to select.
+
+Press Enter.
+
+4️⃣ Select Partition Table Type
+Usually choose [Intel] (for most systems).
+
+Press Enter.
+
+5️⃣ Select Partition
+Select the correct Partition (like Linux filesystem).
+
+Press Enter.
+
+6️⃣ Choose 'Advanced' > File Recovery
+Select [Advanced] for file operations.
+
+Choose [Undelete] to recover deleted files.
+
+7️⃣ Recover Deleted Files
+Navigate to the deleted files.
+
+Select files to copy.
+
+Press C to copy.
+
+Choose destination folder (for example: Desktop).
+
+8️⃣ Finish
+Exit TestDisk.
+
+Recovered files will be found in the selected output folder (like Desktop).
