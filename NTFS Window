@@ -1,12 +1,45 @@
-Press Windows+R  
-Type diskmamt.msc and press Enter 
-select "c Drive" & right click 
-Select option shrink volume 
-Enter amount to be shrink e.g "10" 
-An unallocated pantition will be created 
-Select the unallocated vol. (which we created) 80 right click on it 
-Select "New simple Volume 
-Welcome wizard appears Next 
-Assign Drive Lettel (e.g. C, D,E), Clict Next 
-Select File system as NTFS 
-Conformation Wizard woud appear & click Finish
+Shrink Volume & Create New Partition in Windows
+1️⃣ Open Disk Management
+Press Windows + R.
+
+Type:
+diskmgmt.msc
+Press Enter.
+
+2️⃣ Shrink C: Drive
+In Disk Management, find C: Drive.
+
+Right-click on C: Drive.
+
+Select Shrink Volume.
+
+Enter the amount to shrink (e.g., 10 GB or desired size).
+
+Click Shrink.
+
+This will create an Unallocated Partition.
+
+3️⃣ Create New Simple Volume
+Right-click on the Unallocated space.
+
+Select New Simple Volume.
+
+4️⃣ New Simple Volume Wizard
+Next through the wizard.
+
+Assign a Drive Letter (e.g., D, E).
+
+Click Next.
+
+5️⃣ Format New Partition
+Choose File System: Select NTFS.
+
+Leave other options default.
+
+Click Next.
+
+6️⃣ Finish
+A confirmation window will appear.
+
+Click Finish.
+
