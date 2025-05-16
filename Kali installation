@@ -1,0 +1,57 @@
+
+1. Download Kali Linux ISO
+Go to the official Kali Linux website: https://www.kali.org/get-kali/
+
+Download the ISO file (choose the version you need).
+
+2. Install VirtualBox or VMware
+Download and install VirtualBox (free) or VMware Workstation Player.
+
+Install it on your computer.
+
+3. Create a New Virtual Machine
+Open VirtualBox or VMware.
+
+Click on "New" to create a new virtual machine.
+
+Name it Kali Linux.
+
+Set:
+
+RAM: Minimum 2 GB (recommended 4 GB+)
+
+Hard Disk: At least 20 GB (preferably more).
+
+4. Mount the Kali Linux ISO
+In settings, go to Storage.
+
+Mount the Kali Linux ISO file as the optical disk.
+
+5. Start the Virtual Machine & Install Kali
+Start the VM.
+
+Kali Linux installer will boot.
+
+Follow on-screen instructions:
+
+Choose Language.
+
+Select Region & Keyboard layout.
+
+Set Username & Password.
+
+Configure Partitioning (Guided - use entire disk is easy for beginners).
+
+Continue installation until complete.
+
+6. Reboot Kali Linux
+After installation, it will ask to Reboot.
+
+Remove the ISO from storage (so it boots from disk).
+
+Kali Linux will boot up.
+
+7. Login & Done!
+Login with your username & password.
+
+You’re ready to use Kali Linux!
