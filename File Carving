@@ -1,0 +1,45 @@
+File Carving using PhotoRec on Kali Linux
+1️⃣ Install PhotoRec
+PhotoRec comes with TestDisk, so run:
+
+
+sudo apt update
+sudo apt install testdisk
+
+2️⃣ Launch PhotoRec
+Run this command:
+
+sudo photorec
+
+3️⃣ Select Disk
+Use arrow keys to select the disk you want to recover files from.
+
+Press Enter.
+
+4️⃣ Select Partition
+Choose the correct partition (Linux partition).
+
+Press Enter.
+
+5️⃣ Select Filesystem Type
+Choose ext2/ext3 (for Linux partitions).
+
+Press Enter.
+
+6️⃣ Choose Scan Area
+Select [Whole] to scan the entire partition/disk.
+
+Press Enter.
+
+7️⃣ Select Recovery Destination
+Use arrow keys to browse and select the location where recovered files will be saved (e.g., Desktop).
+
+Important: Don't save to the same disk you're recovering from.
+
+8️⃣ Start Recovery
+Press “C” key to start the recovery process.
+
+9️⃣ View Recovered Files
+After finishing, navigate to the recovery destination folder.
+
+You’ll see recovered files & folders there.
