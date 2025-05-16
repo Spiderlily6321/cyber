@@ -1,0 +1,57 @@
+Nmap Commands
+1️⃣ Check Live Machines (Ping Scan)
+
+nmap -sP 172.16.4.1-254
+Scans IP range to find live hosts.
+
+2️⃣ Check if Port 445 is Open
+
+nmap -p 445 172.16.4.51
+Scans port 445 (used by SMB) on target IP.
+
+3️⃣ Discover All Open Ports
+
+nmap -p 1-65535 -v 172.16.4.51
+Scans all TCP ports (1-65535) with verbose output (-v).
+
+4️⃣ TCP Connect Scan
+
+nmap -sT 172.16.4.51
+Basic TCP connect() scan.
+
+5️⃣ SYN Stealth Scan (Aggressive OS Detection)
+
+nmap -sS -A -O 172.16.4.51
+Stealth scan with OS detection, version detection, script scanning, and traceroute.
+
+6️⃣ UDP Scan
+
+nmap -sU 172.16.4.51
+Scans for open UDP ports.
+
+7️⃣ Idle Scan (using zombie host)
+
+nmap -sI 172.16.4.79:81 172.16.4.51
+Idle scan using 172.16.4.79 as a zombie to scan 172.16.4.51.
+
+8️⃣ Scanning Beyond Firewall (Timing Options)
+
+nmap -T5 172.16.4.51
+nmap -T4 172.16.4.51
+nmap -T3 172.16.4.51
+nmap -T2 172.16.4.51
+nmap -T1 172.16.4.51
+-T1 to -T5: Scan speed.
+
+T1 is slow & stealthy.
+
+T5 is fast but noisy.
+
+9️⃣ Vulnerability Scan (SMB & SNMP)
+
+nmap -p 445 --script=smb-vuln* 172.16.4.51
+Checks for SMB vulnerabilities.
+
+
+nmap -sU -p 161 172.16.4.51
+Scans UDP port 161 (SNMP service).
