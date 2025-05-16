@@ -1,0 +1,12 @@
+Press Windows+R  
+Type diskmamt.msc and press Enter 
+select "c Drive" & right click 
+Select option shrink volume 
+Enter amount to be shrink e.g "10" 
+An unallocated pantition will be created 
+Select the unallocated vol. (which we created) 80 right click on it 
+Select "New simple Volume 
+Welcome wizard appears Next 
+Assign Drive Lettel (e.g. C, D,E), Clict Next 
+Select File system as NTFS 
+Conformation Wizard woud appear & click Finish
