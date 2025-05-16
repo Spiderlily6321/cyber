@@ -1,0 +1,34 @@
+Basic Linux Commands (with simple descriptions)
+#	Command	Description
+1	pwd	Prints current working directory path.
+2	ls	Lists files & folders in current directory.
+3	man ls	Displays manual (help page) for ls command.
+4	cd <directory>	Changes to a specified directory.
+5	touch filename	Creates a new empty file.
+6	mkdir <directory>	Creates a new directory (folder).
+7	rm filename	Removes (deletes) a file.
+8	mv source destination	Moves or renames a file/folder.
+9	ifconfig	Shows network interface details.
+10	cat filename	Displays content of a file.
+11	cp source destination	Copies a file from source to destination.
+12	grep <keyword> filename	Finds & highlights keyword in a file.
+13	ping google.com	Checks internet connectivity by pinging Google.
+14	whoami	Displays current username.
+15	sudo su	Switches to root user (superuser mode).
+16	sudo apt install <package>	Installs a software package. Example: sudo apt install netcat.
+
+✅ How to Run These Commands (Example Flow):
+Open Terminal (Ctrl + Alt + T).
+
+Type:
+pwd
+ls
+mkdir testfolder
+cd testfolder
+touch myfile.txt
+cat myfile.txt
+
+To install a package (e.g., netcat):
+
+sudo apt update
+sudo apt install netcat
